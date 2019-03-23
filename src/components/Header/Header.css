@@ -1,0 +1,25 @@
+.header {
+	display: grid;
+	grid-gap: 20px;
+	/* grid-template-areas:
+		'menu logo logo logo'
+    'nav nav nav nav'; */
+	grid-template-columns: 1fr auto 1fr;
+	max-height: 400px;
+	width: 100%;
+}
+.header__logo {
+	grid-column: 2 / span 1;
+}
+.header__logo.sm,
+.header__logo.md,
+.header__logo.l {
+	height: var(--logoHeight, 50px);
+	width: 100%;
+}
+.header__logo.md {
+	--logoHeight: 100px;
+}
+.header__logo.l {
+	--logoHeight: 150px;
+}
