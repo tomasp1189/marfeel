@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Navigation.css';
 
-export default function Navigation({ children }) {
+function Navigation({ children }) {
 	return (
 		<div className="nav">
 			<ul>
@@ -12,3 +13,8 @@ export default function Navigation({ children }) {
 		</div>
 	);
 }
+Navigation.propTypes = {
+	children: PropTypes.arrayOf(PropTypes.node)
+};
+
+export default Navigation;

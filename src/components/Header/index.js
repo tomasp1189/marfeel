@@ -24,7 +24,7 @@ function Header({ logo, size }) {
 	);
 }
 Header.propTypes = {
-	imgSrc: PropTypes.object,
+	logo: PropTypes.string,
 	size: PropTypes.oneOf(['sm', 'md', 'l'])
 };
 Header.defaultProps = {
