@@ -8,22 +8,29 @@
 	display: grid;
 	grid-auto-flow: column;
 	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	align-content: center;
 }
 
 .nav a {
 	position: relative;
 	display: block;
 	text-decoration: none;
+	color: black;
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
 }
-.nav a.active:after {
+.nav a:hover {
+	/* background: linear-gradient(to bottom, transparent, var(--red)); */
+}
+
+.nav a.active:after,
+.nav a:hover:after {
 	display: block;
 	content: '';
 	height: 2px;
@@ -31,5 +38,5 @@
 	position: absolute;
 	left: 3px;
 	bottom: 3px;
-	background: red;
+	background: var(--red);
 }
