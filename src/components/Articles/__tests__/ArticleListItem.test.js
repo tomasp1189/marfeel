@@ -5,7 +5,6 @@ import { MemoryRouter } from 'react-router-dom';
 import ArticleListItem from 'components/Articles/ArticleListItem';
 
 it('should render with image, title and description', () => {
-	console.log(typeof svgImage);
 	const wrapped = mount(
 		<MemoryRouter>
 			<ArticleListItem

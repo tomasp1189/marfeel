@@ -3,6 +3,12 @@
 	grid-column: 1 / -1;
 	overflow: auto;
 }
+.nav.hidden {
+	max-height: 0;
+	overflow: hidden;
+	transform: rotateX(90deg);
+	transition: all 0.5s;
+}
 
 .nav ul {
 	display: grid;
