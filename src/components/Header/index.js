@@ -16,9 +16,15 @@ function Header({ logo, size }) {
 		if (navIsHidden && position < 400) setNavIsHidden(false);
 	}, [position]);
 
+	const handleMenuButtonClick = () => {
+		setNavIsHidden(!navIsHidden);
+	};
+
+	const iconSize = size === 'md' ? '3x' : size === 'l' ? '4x' : '2x';
+
 	return (
-		<header className="header">
-			<IconButton />
+		<header className={`header ${size}`}>
+			<IconButton icon="bars" onClick={handleMenuButtonClick} size={iconSize} />
 			{!!logo && (
 				<img src={logo} alt="logo" className={`header__logo ${size}`} />
 			)}

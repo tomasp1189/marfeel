@@ -1,14 +1,23 @@
-.header {
+.header.sm,
+.header.md,
+.header.l {
 	display: grid;
-	grid-gap: 20px;
-	/* grid-template-areas:
-		'menu logo logo logo'
-    'nav nav nav nav'; */
+	grid-gap: 10px;
 	grid-template-columns: 1fr auto 1fr;
+	grid-template-rows: var(--rowHeight, 70px);
+	justify-content: center;
 	max-height: 400px;
 	width: 100%;
+	box-sizing: border-box;
+}
+.header.md {
+	--rowHeight: 120px;
+}
+.header.l {
+	--rowHeight: 170px;
 }
 .header__logo {
+	align-self: center;
 	grid-column: 2 / span 1;
 }
 .header__logo.sm,
