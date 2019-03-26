@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/marfeel/static/js/runtime~main.f6979771.js"
   },
   {
-    "revision": "92f6021287dc41ea5f64",
+    "revision": "9035b23b83f7c3834d22",
     "url": "/marfeel/static/js/main.d73c8d01.chunk.js"
   },
   {
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/marfeel/static/js/2.c21352c1.chunk.js"
   },
   {
-    "revision": "92f6021287dc41ea5f64",
-    "url": "/marfeel/static/css/main.4d10ca43.chunk.css"
+    "revision": "9035b23b83f7c3834d22",
+    "url": "/marfeel/static/css/main.7032121a.chunk.css"
   },
   {
-    "revision": "0afb587e6722892ad74229988ae32b1a",
+    "revision": "3eec167c1889be66c6624ee2a5942f41",
     "url": "/marfeel/index.html"
   }
 ];
