@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/marfeel/static/css/main.4d10ca43.chunk.css"
   },
   {
-    "revision": "c0243def5ba20339677c65a65cc9a6e4",
+    "revision": "0afb587e6722892ad74229988ae32b1a",
     "url": "/marfeel/index.html"
   }
 ];
