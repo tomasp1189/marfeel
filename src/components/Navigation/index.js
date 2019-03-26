@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import './Navigation.css';
 
-function Navigation({ children, className }) {
+function Navigation({ children, className, style }) {
 	return (
-		<div className={classNames('nav', className)}>
+		<div className={classNames('nav', className)} style={style}>
 			<ul>
 				{children.map((child, index) => (
 					<li key={index}>{child}</li>
@@ -16,7 +16,8 @@ function Navigation({ children, className }) {
 }
 Navigation.propTypes = {
 	children: PropTypes.arrayOf(PropTypes.node),
-	className: PropTypes.string
+	className: PropTypes.string,
+	style: PropTypes.object
 };
 
 export default Navigation;

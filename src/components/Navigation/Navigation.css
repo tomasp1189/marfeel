@@ -25,7 +25,7 @@
 	position: relative;
 	display: block;
 	text-decoration: none;
-	color: black;
+	color: inherit;
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;

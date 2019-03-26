@@ -10,7 +10,11 @@ import './App.css';
 function App() {
 	return (
 		<div className="App">
-			<Header logo={logo} size="sm" />
+			<Header
+				logo={logo}
+				size="sm"
+				style={{ background: 'black', color: 'white' }}
+			/>
 			<main className="App__content">
 				<Route path="/">
 					<ArticleList articles={mockArticles(4)} />

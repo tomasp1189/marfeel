@@ -6,7 +6,7 @@ import IconButton from 'components/IconButton';
 import useElementOffsetHeight from 'hooks/useElementOffsetHeight';
 import './Header.css';
 
-function Header({ logo, size }) {
+function Header({ logo, size, style }) {
 	let position = useElementOffsetHeight('.article-list');
 
 	const [navIsHidden, setNavIsHidden] = useState(false);
@@ -23,7 +23,7 @@ function Header({ logo, size }) {
 	const iconSize = size === 'md' ? '3x' : size === 'l' ? '4x' : '2x';
 
 	return (
-		<header className={`header ${size}`}>
+		<header className={`header ${size}`} style={style}>
 			<IconButton icon="bars" onClick={handleMenuButtonClick} size={iconSize} />
 			{!!logo && (
 				<img src={logo} alt="logo" className={`header__logo ${size}`} />
@@ -42,7 +42,8 @@ function Header({ logo, size }) {
 }
 Header.propTypes = {
 	logo: PropTypes.string,
-	size: PropTypes.oneOf(['sm', 'md', 'l'])
+	size: PropTypes.oneOf(['sm', 'md', 'l']),
+	style: PropTypes.object
 };
 Header.defaultProps = {
 	size: 'sm'

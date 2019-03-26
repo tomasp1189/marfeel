@@ -8,6 +8,7 @@ function useElementOffsetHeight(selector) {
 	useEffect(() => {
 		element = document.querySelector(selector);
 		if (!element) return;
+
 		let handleScroll = () => {
 			setPosition(element.scrollTop);
 		};
