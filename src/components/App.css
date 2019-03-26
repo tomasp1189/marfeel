@@ -1,6 +1,7 @@
 .App {
 	text-align: center;
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	height: 100vh;
 	overflow: hidden;
 }
@@ -8,4 +9,5 @@
 .App__content {
 	position: relative;
 	height: calc(100vh - (var(--headerHeight, 113px)));
+	flex: 1;
 }

@@ -8,6 +8,8 @@
 	overflow: hidden;
 	transform: rotateX(90deg);
 	transition: all 0.5s;
+	grid-row: unset;
+	grid-column: unset;
 }
 
 .nav ul {

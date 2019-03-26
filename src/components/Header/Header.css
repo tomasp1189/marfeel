@@ -8,6 +8,7 @@
 	justify-content: center;
 	max-height: 400px;
 	width: 100%;
+	height: min-content;
 	box-sizing: border-box;
 }
 .header.md {
