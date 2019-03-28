@@ -10,4 +10,5 @@
 	position: relative;
 	height: calc(100vh - (var(--headerHeight, 113px)));
 	flex: 1;
+	overflow: auto;
 }
