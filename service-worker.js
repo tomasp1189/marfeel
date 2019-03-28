@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marfeel/precache-manifest.f76f91b6801215d6316c28aac1948e2d.js"
+  "/marfeel/precache-manifest.3705124dfabbcc5b69b5192bd50b0cc2.js"
 );
 
 workbox.clientsClaim();
