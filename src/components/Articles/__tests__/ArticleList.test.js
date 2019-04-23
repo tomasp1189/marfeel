@@ -1,8 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import king from 'assets/king.svg';
-import { MemoryRouter } from 'react-router-dom';
-import mockArticles from 'assets/mockArticles';
 import ArticleList from 'components/Articles/ArticleList';
 import ArticleListItem from 'components/Articles/ArticleListItem';
 
