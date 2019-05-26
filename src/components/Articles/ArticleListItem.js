@@ -17,9 +17,9 @@ function ArticleListItem({ description, img, title }) {
 }
 
 ArticleListItem.propTypes = {
+	description: PropTypes.string,
 	img: PropTypes.string,
-	title: PropTypes.string.isRequired,
-	description: PropTypes.string.isRequired
+	title: PropTypes.string.isRequired
 };
 
 export default ArticleListItem;

@@ -27,6 +27,7 @@
 }
 .article-list-item__img {
 	height: 128px;
+	/* max-width: 128px; */
 	grid-row: 1 / span 2;
 	grid-column: 1;
 }
