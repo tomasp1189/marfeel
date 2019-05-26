@@ -1,16 +1,14 @@
 {
-  "main.css": "/marfeel/static/css/main.6aee6e8e.chunk.css",
-  "main.js": "/marfeel/static/js/main.8bbfd777.chunk.js",
-  "main.js.map": "/marfeel/static/js/main.8bbfd777.chunk.js.map",
+  "main.css": "/marfeel/static/css/main.22fc7679.chunk.css",
+  "main.js": "/marfeel/static/js/main.b5d64b61.chunk.js",
+  "main.js.map": "/marfeel/static/js/main.b5d64b61.chunk.js.map",
   "runtime~main.js": "/marfeel/static/js/runtime~main.f6979771.js",
   "runtime~main.js.map": "/marfeel/static/js/runtime~main.f6979771.js.map",
-  "static/js/2.c21352c1.chunk.js": "/marfeel/static/js/2.c21352c1.chunk.js",
-  "static/js/2.c21352c1.chunk.js.map": "/marfeel/static/js/2.c21352c1.chunk.js.map",
+  "static/js/2.1fed143d.chunk.js": "/marfeel/static/js/2.1fed143d.chunk.js",
+  "static/js/2.1fed143d.chunk.js.map": "/marfeel/static/js/2.1fed143d.chunk.js.map",
   "index.html": "/marfeel/index.html",
-  "precache-manifest.3705124dfabbcc5b69b5192bd50b0cc2.js": "/marfeel/precache-manifest.3705124dfabbcc5b69b5192bd50b0cc2.js",
+  "precache-manifest.68806d6bdb11fcdf2d849ebb29d44340.js": "/marfeel/precache-manifest.68806d6bdb11fcdf2d849ebb29d44340.js",
   "service-worker.js": "/marfeel/service-worker.js",
-  "static/css/main.6aee6e8e.chunk.css.map": "/marfeel/static/css/main.6aee6e8e.chunk.css.map",
-  "static/media/king.svg": "/marfeel/static/media/king.9779cbf2.svg",
-  "static/media/lionel-richie.svg": "/marfeel/static/media/lionel-richie.21882e61.svg",
+  "static/css/main.22fc7679.chunk.css.map": "/marfeel/static/css/main.22fc7679.chunk.css.map",
   "static/media/marfeel_logo_rgb.svg": "/marfeel/static/media/marfeel_logo_rgb.d0637061.svg"
 }
